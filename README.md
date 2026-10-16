@@ -1,6 +1,6 @@
 # mei-git-assistant
 
-> Git 操作助手 Skill——为 AI 编程助手（Claude Code / Codex 等）设计的 Git 工作流技能：状态检查、规范化提交、分支策略、冲突解决、**推送前历史安全审计**，以及一套"AI 执行 Git 操作"的安全红线。
+> Git 操作助手 Skill——为 AI 编程助手（Claude Code / Codex 等）设计的 Git 工作流技能：状态检查、规范化提交、分支策略、冲突解决、**推送前历史安全审计**，以及一套“AI 执行 Git 操作”的安全红线。
 
 当前版本：**v2.2.0** · 约定：Conventional Commits · 适用：Claude Code 及兼容 Skill 格式的 Agent
 
@@ -88,7 +88,7 @@ git clone https://github.com/deepdark0721/mei-git-assistant.git
 cp -r mei-git-assistant ~/.claude/skills/mei-git-assistant
 ```
 
-安装后对 AI 说"提交代码""推送代码""解决冲突"等触发词即可自动进入对应 Phase。
+安装后对 AI 说“提交代码”“推送代码”“解决冲突”等触发词即可自动进入对应 Phase。
 
 ---
 
