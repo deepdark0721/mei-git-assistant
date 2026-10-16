@@ -1,0 +1,37 @@
+{
+  "version": "2.2.0",
+  "created": "2026-07-29",
+  "updated": "2026-09-12",
+  "author": "mei",
+  "description": "Git操作助手——核心概念、协作流程、分支策略、冲突解决、AI结合Git操作、安全红线",
+  "reference_skills": [
+    "li-workflow",
+    "li-script",
+    "li-debug"
+  ],
+  "tags": [
+    "git",
+    "github",
+    "版本控制",
+    "分支",
+    "合并",
+    "冲突解决"
+  ],
+  "category": "工程工具",
+  "complexity": "中",
+  "estimated_time": "5-15分钟",
+  "integrity": {
+    "algorithm": "sha256",
+    "signed_at": "2026-09-12",
+    "files": {
+      "SKILL.md": "sha256:947ed503b65c847d667901d01c1c58bcacae8674028c11694c9e2fcc8e225fed",
+      "references/anti-patterns.md": "sha256:d086543dc91154c2bf95a1f6f2227b16481dbca94a7762176312f30ed14d8f1d",
+      "references/branching-strategies.md": "sha256:cf26893bb8d89f2ad638be07025992ff4212d69ed5725a61dadc62d9ba245ddf",
+      "references/case-studies.md": "sha256:dd4dab71a864a9b555ce500964817ec30437cbc8b05a81677abc4b2bdd1c1dd6",
+      "references/clion-ide-mapping.md": "sha256:2f89d1b661ad5ed78dbca212596eae25460cfa1a4d38f9227f2ededffb4dfce3",
+      "references/concept-semantics.md": "sha256:1ac84234cdf4e42b2331033b7328b9a5bf7676d012c2bca0bd363854f0934f59",
+      "references/conflict-resolution.md": "sha256:ce081d3c734c465ec605820d6e86774a313232fad8d3cdd8640a9a0d888ddf3c",
+      "references/git-commands.md": "sha256:b8bd4d3166c22455176442b14c15c1830ffb16a8d4b7a51cb30486bf4ab559b6"
+    }
+  }
+}

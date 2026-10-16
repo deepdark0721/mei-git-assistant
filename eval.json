@@ -1,0 +1,79 @@
+{
+  "quality_gates": [
+    {
+      "id": "QG-01",
+      "check": "SKILL.md 行数 ≤ 500",
+      "threshold": 500,
+      "metric": "line_count"
+    },
+    {
+      "id": "QG-02",
+      "check": "触发词 ≥ 15 个",
+      "threshold": 15,
+      "metric": "trigger_count"
+    },
+    {
+      "id": "QG-03",
+      "check": "references/ 文件 ≥ 5 个",
+      "threshold": 5,
+      "metric": "reference_count"
+    },
+    {
+      "id": "QG-04",
+      "check": "每个 references/ 文件 ≥ 500B",
+      "threshold": 500,
+      "metric": "min_reference_size"
+    },
+    {
+      "id": "QG-05",
+      "check": "包含设计哲学章节",
+      "threshold": 1,
+      "metric": "has_philosophy"
+    },
+    {
+      "id": "QG-06",
+      "check": "包含 Phase 工作流",
+      "threshold": 1,
+      "metric": "has_phases"
+    },
+    {
+      "id": "QG-07",
+      "check": "包含反模式章节",
+      "threshold": 1,
+      "metric": "has_anti_patterns"
+    },
+    {
+      "id": "QG-08",
+      "check": "包含安全红线",
+      "threshold": 1,
+      "metric": "has_safety_rules"
+    },
+    {
+      "id": "QG-09",
+      "check": "包含铁律章节",
+      "threshold": 1,
+      "metric": "has_iron_laws"
+    },
+    {
+      "id": "QG-10",
+      "check": "golden_rules.md 存在",
+      "threshold": 1,
+      "metric": "has_golden_rules"
+    },
+    {
+      "id": "QG-11",
+      "check": "_meta.json 包含 version",
+      "threshold": 1,
+      "metric": "has_version"
+    },
+    {
+      "id": "QG-12",
+      "check": "lifecycle-log.md ≥ 500B",
+      "threshold": 500,
+      "metric": "lifecycle_log_size"
+    }
+  ],
+  "eval_command": "python scripts/eval.py --skill mei-git-assistant",
+  "last_eval": "2026-07-29",
+  "eval_result": "PASS"
+}
